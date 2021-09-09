@@ -1,0 +1,29 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+.topbar {
+    height: 10vh;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.illustration {
+    text-align: left;
+}
+
+.illustration > img {
+    width: 25em;
+    float: right;
+}
+
+.illustration > div {
+    padding: 40;
+}
+
+.headline > p {
+    color: #97999b;
+}
