@@ -22,14 +22,31 @@ input {
 }
 
 .topbar {
-    height: 10vh;
+    color: #3C3C3C;
+    display: flex;
+    font-weight: 600;
+}
+
+.topbar > h1 {
+    margin-left: 20px;
+    color: black;
+}
+
+.authentication {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    margin: 10px;
 }
 
 .flex {
-    margin: auto;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.center {
+    width: 100%;
+    margin: auto;
 }
 
 .illustration {
