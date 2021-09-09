@@ -34,8 +34,8 @@ input {
     text-align: left;
 }
 
-.illustration > img {
-    width: 25em;
+img {
+    width: 40vw;
     float: right;
 }
 
@@ -43,7 +43,11 @@ input {
     padding: 40;
 }
 
-.headline > p {
+.headline {
+    width: 40vw;
+}
+
+.subtext {
     color: #97999b;
 }
 
@@ -61,4 +65,20 @@ input {
 .demobook > * > button {
     border-radius: 1em;
     width: 10em;
+}
+
+.advantages {
+    padding: 40;
+    text-align: center;
+}
+
+.advantages > p {
+    padding-left: 20%;
+    padding-right: 20%
+}
+
+.card {
+    text-align: left;
+    width: 20vw;
+    padding: 5vw;
 }
